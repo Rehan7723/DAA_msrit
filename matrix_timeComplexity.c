@@ -34,10 +34,10 @@ void multiplyMatrices(int first[][10],
                       int r1, int c1, int r2, int c2) {
 
    // Initializing elements of matrix mult to 0.
-   for (int i = 0; i < r1; ++i) {
-      for (int j = 0; j < c2; ++j) {
-      }
-   }
+   // for (int i = 0; i < r1; ++i) {
+   //    for (int j = 0; j < c2; ++j) {
+   //    }
+   // } initialize it in the calculation loop itself
    clock_t start=clock();
    // Multiplying first and second matrices and storing it in result
 
